@@ -1,0 +1,6 @@
+{
+  "icon": true,
+  "replaceAttrValues": {
+    "#64748B": "currentColor"
+  }
+}

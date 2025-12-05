@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer base {
+  :where([data-sonner-toast]) :where([data-icon]) {
+    margin-right: 0px !important;
+    width: fit-content !important;
+    height: fit-content !important;
+  }
+}

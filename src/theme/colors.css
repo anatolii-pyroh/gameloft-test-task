@@ -1,0 +1,13 @@
+@tailwind base;
+
+@layer base {
+  :root {
+    --background: theme(colors.white);
+    --body: theme(colors.slate.50);
+    --border: theme(colors.slate.200);
+    --muted: theme(colors.slate.50);
+    --destructive: #db4e66;
+    --supportive-01: #4ca154;
+    --supportive-muted-01: #e2fbe8;
+  }
+}
