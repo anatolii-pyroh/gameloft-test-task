@@ -5,6 +5,7 @@ import Autoplay from "embla-carousel-autoplay";
 import { type Product as ProductType } from "@/typings/product.type";
 
 import { Carousel, CarouselContent } from "@/components/ui/carousel";
+import { Typography } from "@/components/ui/typography";
 import CarouselNavigationButtons from "@/components/views/products-view/components/carousel-navigation-buttons";
 import Product from "@/components/views/products-view/components/product";
 
@@ -15,13 +16,13 @@ interface Props {
 const CarouselContainer = (props: Props) => {
   const { products } = props;
 
-  // if (products.length === 0) {
-  //   return (
-  //     <Typography size="lg" className="text-center">
-  //       Oops! No products found
-  //     </Typography>
-  //   );
-  // }
+  if (products.length === 0) {
+    return (
+      <Typography size="lg" className="text-center">
+        Oops! No products found
+      </Typography>
+    );
+  }
 
   return (
     <Carousel
