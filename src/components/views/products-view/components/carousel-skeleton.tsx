@@ -12,7 +12,7 @@ const CarouselSkeleton = () => {
       opts={{ loop: true, align: "start" }}
       plugins={[
         Autoplay({
-          delay: 2000,
+          delay: 3000,
         }),
       ]}
       className="flex w-full max-w-[90%] flex-col"
