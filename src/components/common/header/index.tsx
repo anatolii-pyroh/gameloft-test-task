@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <div className="flex h-14 md:h-20" />
 
-      <header className="container fixed inset-x-0 top-0 z-20 flex w-full items-center justify-center border-b">
+      <header className="container bg-background fixed inset-x-0 top-0 z-20 flex w-full items-center justify-center border-b">
         <div className="flex h-14 w-full max-w-[90%] items-center justify-between md:h-20">
           <Typography size="md">Anatolii Pyroh</Typography>
 
